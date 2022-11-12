@@ -1,0 +1,11 @@
+#button{
+  font-size: 17px;
+  margin: 20px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 50px;
+  background-color: #ff6251;
+  display: inline-block;
+  color: #fff;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  box-shadow: 0 0px 15px #000;
+}

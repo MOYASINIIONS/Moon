@@ -1,0 +1,12 @@
+{
+  "content": [
+    {"desctiption": [
+        {"text": "Welcome to Plug!"},
+        {"typing": "Let's Issue an account."}
+      ]
+    },
+    {"label": "Enter your username"},
+    {"label": ">>>"},
+    {"code-button": "Contine"}
+  ]
+}

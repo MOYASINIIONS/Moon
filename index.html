@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="./assets/public.css" type="text/css">
+</head>
+
+<body>
+  <!-- コンテンツ -->
+
+  <div id="main">
+  </div>
+  
+  <script src="/assets/main.js" type="module"></script>
+  <script type="module">
+    const account = {selector: "#main", scope: "account"};
+    import {getParts} from "./assets/get-parts.js";
+    getParts(account);
+    var script = document.createElement("script");
+    script.src = "./seen/account/private.js";
+    document.body.appendChild(script);
+    
+  </script>
+</body>
+</html>
