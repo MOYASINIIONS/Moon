@@ -1,0 +1,57 @@
+body{
+  background-color: #222;
+}
+
+#sidebar div{
+  color: #efefef;
+  font-family: futura;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+#sidebar{
+  /*margin-top: 320px;*/
+  display: block;
+  position: fixed;
+}
+
+#bolt{
+  content: url("/assets/img/bolt.png");
+  height: 20px;
+  text-align: center;
+}
+
+#lightbulb{
+  content: url("/assets/img/lightbulb.png");
+  height: 20px;
+  text-align: center;
+}
+#powerplug{
+  content: url("/assets/img/powerplug.png");
+  width: 20px;
+  text-align: center;
+}
+
+#hammer{
+  content: url("/assets/img/hammer.png");
+  width: 20px;
+  text-align: center;
+}
+
+#love{
+  content: url("/assets/img/love.png");
+  width: 20px;
+  text-align: center;
+}
+
+#icons{
+  width: 30px;
+  display: inline-block;
+}
+
+#screen{
+  width: ;
+  background-color: #333;
+}

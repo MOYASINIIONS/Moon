@@ -18,13 +18,21 @@
   
   <script src="/assets/main.js" type="module"></script>
   <script type="module">
-    const account = {selector: "#main", scope: "account"};
     import {getParts} from "./assets/get-parts.js";
-    getParts(account);
-    var script = document.createElement("script");
-    script.src = "./seen/account/private.js";
-    document.body.appendChild(script);
     
+    if(localStorage.getItem("username") === null){
+      const account = {selector: "#main", scope: "account"};
+      getParts(account);
+      var script = document.createElement("script");
+      script.src = "./seen/account/private.js";
+      document.body.appendChild(script);
+    } else {
+      const home = {selector: "#main", scope: "home"};
+      getParts(home);
+      var script = document.createElement("script");
+      script.src = "./seen/account/private.js";
+      document.body.appendChild(script);
+    }
   </script>
 </body>
 </html>
